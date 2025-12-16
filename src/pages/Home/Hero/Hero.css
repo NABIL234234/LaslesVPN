@@ -17,6 +17,8 @@ section {
 
 .welcome-section > p {
   padding: 20px 0 50px;
+  color: #4f5665;
+  line-height: 2;
 }
 
 .statistic-wrapper {
@@ -48,5 +50,6 @@ section {
 }
 
 .statistic-text > p {
+  color: #4f5665;
   margin: 0;
 }

@@ -1,12 +1,14 @@
 import "./App.css";
 import Layout from "./Layout/Layout";
-import RouterView from "./router";
+import Home from "./pages/Home";
+// import RouterView from "./router";
 
 function App() {
   return (
     <>
       <Layout>
-        <RouterView />
+        <Home />
+        {/* <RouterView /> */}
       </Layout>
     </>
   );
