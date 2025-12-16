@@ -1,0 +1,38 @@
+.feature-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 0 0;
+  gap: 170px;
+}
+
+.feature-container {
+  width: 460px;
+  padding: 45px;
+}
+
+.feature-container > h2 {
+  font-size: 35px;
+}
+
+.feature-container > p {
+  color: #4f5665;
+  line-height: 2;
+}
+
+.check-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 0;
+  gap: 15px;
+}
+
+.check-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.check-wrapper > span {
+  color: #4f5665;
+}

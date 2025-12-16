@@ -1,10 +1,10 @@
 import "./Hero.css";
-import illustration from "../../../assets/illustration 1.png";
+import illustration from "../../../assets/illustration-1.png";
 import GetStarted from "../../../components/Buttons/GetStarted/GetStarted";
-import User from "../../../assets/user.png";
-import Location from "../../../assets/location.jpg";
-import Server from "../../../assets/server.png";
-import Border from "../../../assets/border.png";
+import user from "../../../assets/user.png";
+import location from "../../../assets/location.jpg";
+import server from "../../../assets/server.png";
+import border from "../../../assets/border.png";
 
 function Hero() {
   return (
@@ -27,23 +27,23 @@ function Hero() {
         </div>
         <div className="statistic-wrapper">
           <div className="statistic-container">
-            <img src={User} alt="user" />
+            <img src={user} alt="user" />
             <div className="statistic-text">
               <span>90+</span>
               <p>Users</p>
             </div>
           </div>
-          <img src={Border} alt="" />
+          <img src={border} alt="" />
           <div className="statistic-container">
-            <img src={Location} alt="user" />
+            <img src={location} alt="user" />
             <div className="statistic-text">
               <span>30+</span>
               <p>Locations</p>
             </div>
           </div>
-          <img src={Border} alt="" />
+          <img src={border} alt="border" />
           <div className="statistic-container">
-            <img src={Server} alt="user" />
+            <img src={server} alt="user" />
             <div className="statistic-text">
               <span>50+</span>
               <p>Servers</p>

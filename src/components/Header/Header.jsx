@@ -1,4 +1,5 @@
 import "./Header.css";
+import logo from '../../assets/logo.png'
 
 function Header() {
   return (
@@ -6,7 +7,7 @@ function Header() {
       <header className="header">
         <div className="header-row">
           <div className="logo">
-            <img src="./src/assets/Logo.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className="nav-items">
             <nav>About</nav>

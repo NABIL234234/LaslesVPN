@@ -1,3 +1,4 @@
+import Feature from "./Features/Feature";
 import Hero from "./Hero/Hero";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
       <main>
         <Hero />
+        <Feature />
       </main>
     </>
   );
