@@ -1,0 +1,39 @@
+.plan-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 330px;
+  height: 760px;
+  border: solid #dddddd;
+  padding: 80px 70px 50px 70px;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.plan-check-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.plan-wrapper-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #4f5665;
+}
+
+.plan-container > h2 {
+  padding: 0;
+}
+
+.select-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  padding: 0;
+}
