@@ -48,17 +48,20 @@ function Pricing() {
   return (
     <>
       <section>
-        <div className="plan-table">
-          <h1>Choose Your Plan</h1>
-          <p>
-            Let's choose the package that is best for you and explore it happily
-            and <br/> cheerfully.
-          </p>
-        </div>
-        <div className="plan-wrapper">
-          {plansData.map((plan) => (
-            <Plan key={plan.id} infoPlan={plan} />
-          ))}
+        <div className="container">
+          {" "}
+          <div className="plan-table">
+            <h1>Choose Your Plan</h1>
+            <p>
+              Let's choose the package that is best for you and explore it
+              happily and <br /> cheerfully.
+            </p>
+          </div>
+          <div className="plan-wrapper">
+            {plansData.map((plan) => (
+              <Plan key={plan.id} infoPlan={plan} />
+            ))}
+          </div>
         </div>
       </section>
     </>

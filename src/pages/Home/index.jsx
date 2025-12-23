@@ -2,6 +2,7 @@ import Feature from "./Features/Feature";
 import Global from "./Global/Global";
 import Hero from "./Hero/Hero";
 import Pricing from "./Pricing/Pricing";
+// import Test from "./Test";
 import Testimonials from "./Testimonials/Testimonials";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Pricing />
         <Global />
         <Testimonials /> 
+        {/* <Test/> */}
       </main>
     </>
   );
