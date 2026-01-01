@@ -7,9 +7,9 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <section className="footer-section">
+      <section id="help" className="footer-section">
         <div className="container">
-          <div className="contact-wrapper">
+          <div  className="contact-wrapper">
             <div className="contact-container">
               <div className="logo-container-footer">
                 <img src={logo} alt="logo" />

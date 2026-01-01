@@ -57,7 +57,7 @@ function Pricing() {
               happily and <br /> cheerfully.
             </p>
           </div>
-          <div className="plan-wrapper">
+          <div id="pricing" className="plan-wrapper">
             {plansData.map((plan) => (
               <Plan key={plan.id} infoPlan={plan} />
             ))}

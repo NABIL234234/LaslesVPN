@@ -72,7 +72,7 @@ function Testimonials() {
 
   return (
     <>
-      <section>
+      <section >
         <div className="container">
           <div className="testimonials">
             <div className="testimonials-table">

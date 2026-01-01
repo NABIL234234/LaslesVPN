@@ -1,5 +1,6 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-scroll";
 
 function Header() {
   return (
@@ -11,11 +12,68 @@ function Header() {
               <img src={logo} alt="logo" />
             </div>
             <div className="nav-items">
-              <nav>About</nav>
-              <nav>Features</nav>
-              <nav>Pricing</nav>
-              <nav>Testimonials</nav>
-              <nav>Help</nav>
+              <nav>
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass="active"
+                  spy={true}
+                >
+                  About
+                </Link>
+              </nav>
+              <nav>
+                <Link
+                  to="features"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass="active"
+                  spy={true}
+                >
+                  Features
+                </Link>
+              </nav>
+              <nav>
+                {" "}
+                <Link
+                  to="pricing"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass="active"
+                  spy={true}
+                >
+                  Pricing
+                </Link>
+              </nav>
+              <nav>
+                <Link
+                  to="testimonials"
+                  smooth={true}
+                  duration={500}
+                  offset={-90}
+                  activeClass="active"
+                  spy={true}
+                >
+                  Testimonials
+                </Link>
+              </nav>
+              <nav>
+                {" "}
+                <Link
+                  to="help"
+                  smooth={true}
+                  duration={500}
+                  offset={-90}
+                  activeClass="active"
+                  spy={true}
+                >
+                  Help
+                </Link>
+              </nav>
             </div>
             <div className="sing-buttons">
               <button className="sing-in">Sign In</button>
@@ -29,3 +87,4 @@ function Header() {
 }
 
 export default Header;
+

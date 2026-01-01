@@ -9,6 +9,26 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+  color: #4f5665;
+}
+
+.nav-items nav a {
+  color: #4f5665;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-items nav a:hover {
+  color: #f53855;
+  font-weight: 700;
+  border-bottom: 2px solid #f53855;
+}
+
+.nav-items nav a:active {
+  color: #f53855;
+  font-weight: 700;
+  border-bottom: 2px solid #f53855;
 }
 
 .sing-buttons {
@@ -22,6 +42,12 @@
   border: none;
   background-color: #fff;
   color: #0b132a;
+
+  cursor: pointer;
+}
+.sing-in:hover {
+  transition: 0.3s;
+  color: #f53855;
 }
 
 .sing-up {
