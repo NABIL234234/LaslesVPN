@@ -7,7 +7,7 @@ function Feature() {
     <>
       <section>
         <div className="container">
-          <div className="feature-wrapper">
+          <div id="features" className="feature-wrapper">
             <div>
               <img src={illustration} alt="illustration" />
             </div>

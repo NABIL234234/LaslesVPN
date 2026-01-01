@@ -26,7 +26,7 @@ function Hero() {
               <img src={illustration} alt="illustration" />
             </div>
           </div>
-          <div className="statistic-wrapper">
+          <div id="about" className="statistic-wrapper">
             <div className="statistic-container">
               <img src={user} alt="user" />
               <div className="statistic-text">
