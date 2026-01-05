@@ -9,12 +9,12 @@
   gap: 20px;
 }
 
-.testimonials-table > h1 {
+.testimonials-table>h1 {
   text-align: center;
   line-height: 45px;
 }
 
-.testimonials-table > p {
+.testimonials-table>p {
   text-align: center;
   line-height: 28px;
   color: #4f5665;
@@ -31,7 +31,7 @@
   padding: 60px 0 181px 0;
 }
 
-.pagination-container > ul {
+.pagination-container>ul {
   display: flex;
 }
 
@@ -57,9 +57,12 @@
   border-radius: 50px;
   border: solid 2px #f53838;
 }
+
 .prev-btn:hover {
   background-color: #f53838;
 }
+
+
 
 .next-btn {
   display: flex;
@@ -76,13 +79,15 @@
   background-color: #f53838;
 }
 
+.prev-btn:hover .arrow-icon,
+.next-btn:hover .arrow-icon {
+  color: #fff;
+}
+
 .arrow-icon {
   font-size: 20px;
   color: #f53838;
-}
-
-.arrow-btn:hover .arrow-icon {
-  color: #fff;
+  transition: color 0.3s ease;
 }
 
 .subscribe-container {
@@ -100,6 +105,40 @@
   top: 70%;
 }
 
-.subscribe-table > p {
+.subscribe-table>p {
   padding: 20px 0 0 0;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-container {
+  width: auto;
+}
+
+.pagination-dots .swiper-pagination-bullet {
+  gap: 20px;
+  width: 15px;
+  height: 15px;
+  background-color: #DDE0E4;
+  border-radius: 50%;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination-dots .swiper-pagination-bullet-active {
+  background-color: #f53838;
+  width: 45px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.pagination-dots {
+  margin: 0;
+  padding: 0;
+  gap: 5px;
 }
