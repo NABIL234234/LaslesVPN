@@ -1,0 +1,50 @@
+.sing-in-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 200px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.input-container>span {
+    font-size: 25px;
+}
+
+.input-container>input {
+    width: 250px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.input-container>button {
+    width: 130px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: solid 2px #f53838;
+    color: #f53838;
+    cursor: pointer;
+}
+
+.input-container>button:hover {
+    background-color: #f53838;
+    color: #ffffff;
+}
+
+.input-container>a {
+    font-size: 15px;
+    color: #2047d6;
+}
+
+.input-container>a:hover {
+    font-size: 15px;
+    color: #f53838;
+    transition: 0.5s;
+}

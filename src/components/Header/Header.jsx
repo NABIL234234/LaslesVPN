@@ -1,8 +1,21 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+
+const navigate = useNavigate(); 
+
+const handleSignIn = () => {
+    navigate("/authorization/signin");
+  };
+
+  // Переход на Sign Up
+  const handleSignUp = () => {
+    navigate("/authorization/signup");
+  };
+
   return (
     <>
       <header className="header">
@@ -76,8 +89,8 @@ function Header() {
               </nav>
             </div>
             <div className="sing-buttons">
-              <button className="sing-in">Sign In</button>
-              <button className="sing-up">Sign Up</button>
+              <button onClick={handleSignIn} className="sing-in">Sign In</button>
+              <button onClick={handleSignUp} className="sing-up">Sign Up</button>
             </div>
           </div>
         </div>
